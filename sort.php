@@ -44,21 +44,33 @@
                     <?php 
                         if(isset($_POST['search'])){ ?>
                         <img src="img/blood.png" alt="" width="200" height="200">
+                        <?php if($_POST['location']=='Guntur'){?>
                         <h4>Blood Banks:</h4>
                         <p>1. Rainbow Blood Bank</p>
                         <p>2. NTR Trust Blood Bank</p>
                         <p>3. Red Cross Blood Bank</p>
-                    <?php }?>
+                        <?php } else{?>
+                        <h4>Blood Banks:</h4>
+                        <p>1. SunFlowers</p>
+                        <p>2. Charity Trust Co. </p>
+                        <p>3. Nirmala BloodCentre</p>
+                    <?php }}?>
                 </div>
                 <div class="col-sm-3">
                     <?php 
                     if(isset($_POST['search'])){ ?>
                     <img src="img/plasma.jpg" alt="" width="200" height="200">
-                    <h4>PUBLIC FRIDGES:</h4>
-                    <p>1. IDonate Organization</p>
-                    <p>2. Indian RedCross Society</p>
-                    <p>3. NTR Bhavan</p>
-                    <?php } ?>
+                    <?php if($_POST['location']=='Guntur'){?>
+                        <h4>PLASMA CENTERS:</h4>
+                        <p>1. IDonate Organization</p>
+                        <p>2. Indian RedCross Society</p>
+                        <p>3. NTR Bhavan</p>
+                        <?php } else{?>
+                        <h4>PLASMA CENTERS:</h4>
+                        <p>1. AirCross co.</p>
+                        <p>2. WhiteCentre</p>
+                        <p>3. Trusty Centre</p>
+                    <?php }}?>
                 </div>
             </div>
         </div>

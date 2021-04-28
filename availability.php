@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <?php require("connect.php"); ?>
+    <?php require("server.php"); ?>
     <div class="container">
     <center>
         <div class="col-sm-3 col-sm-offset-1 box">
@@ -79,7 +79,7 @@
             </tr>
             <?php
                 $sql = "SELECT * FROM availability";
-                $result = mysqli_query($con, $sql);
+                $result = mysqli_query($conn, $sql);
                 while ($row = mysqli_fetch_array($result)) 
                 {
                     

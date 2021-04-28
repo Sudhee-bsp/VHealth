@@ -50,7 +50,7 @@ require_once('core/controller.Class.php');
           <ul class="nav navbar-nav navbar-right">
             
             <li>
-              <a href="">
+              <a href="./covid.php">
               <button class="btn b1" style="margin-top: 0px; margin-right: -10px; background-color: #5DA3FA">
                 <p id="demo" style="color: white">COVID data</p>
               </button>
@@ -58,7 +58,7 @@ require_once('core/controller.Class.php');
             </li>
 
             <li>
-              <a href="">
+              <a href="./availability.php">
               <button class="btn b1" style="margin-top: 0px; margin-right: -10px; background-color: #5DA3FA">
                 <p id="demo" style="color: white">Hospitals</p>
               </button>
