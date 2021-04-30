@@ -4,14 +4,30 @@
     <link rel="stylesheet" href="meditation.css">
 </head>
 <body class="body-class">
-           
-    <div class="content-container">
-        
-        <div class="navbar">
-            <!-- <img src='cursor.png' id="logo"> -->
-            <br>
-            <span class = "nav-head"> “Meditation is a vital way to purify and quiet the mind, thus rejuvenating the body.” </span>
+<div
+    class="navbar navbar-inverse navbar"
+    style="background-color: #120E43"
+>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#myNavbar"
+            >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <p class="navbar-brand" href="" style="font-size: 45px; color: white; margin: 8px 0 0 12px;">
+                V-Health
+</p>
         </div>
+        
+    </div>
+</div>
+    <div class="content-container">
 
         <div class="content">
             <span id='ex-all-id'>Choose Your Excercise</span>
